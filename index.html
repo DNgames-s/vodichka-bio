@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no" />
-	<title>𝚂𝚙𝚞𝚌𝚖𝚎🌹</title>
+	<title>VODICHKA bio</title>
 	<link rel="icon" href="./favicon.ico" type="image/x-icon">
 	<style>
 		* {
@@ -177,6 +177,10 @@
 
 <body style="position: fixed; width: 100vw; height: 110vh;">
 	<div class="gradient-background">
+		<div class="wrk" id="wrk">
+			<p>created by <a href="https://t.me/spucme">@spucme</a> (telegram)</p>
+			<div></div>
+		</div>
 		<div id="frf">
 			<div id="name">
 				<img class="img" src="vodichka.jpg">
@@ -204,14 +208,9 @@
 				<p class="font">"На телефоне обманываю людей день и ночь, да я Кид Кади"</p>
 			</div>
 		</div>
-		<div class="wrk" id="wrk">
-			<p>created by <a href="https://t.me/spucme">@spucme</a> (telegram)</p>
-			<div></div>
-		</div>
 	</div>
 </body>
 <style>
-	
 	.wrk {
 		width: 350px;
 		height: 50px;
@@ -223,7 +222,9 @@
 		justify-content: center;
 		opacity: 0;
 		transition: all 1s;
-		transform: translateY(60px);
+		transform: translateY(-10px);
+		position: relative;
+		z-index: 10;
 	}
 
 	.wrk p {
@@ -239,7 +240,7 @@
 		transform: translateY(10px);
 	}
 </style>
-	
+
 <script>
 
 	const block = document.getElementById('wrk');
